@@ -17,3 +17,11 @@
 
 ## Servidor
 - Configurar express (server);
+
+## Rotas
+
+- [x] Criar cadastro de client;
+- [x] Criar autenticação;
+- [x] Criar cadastro deliveryman;
+- [x] Criar autenticação deliveryman;
+- [x] Criar cadastro de entregas;
