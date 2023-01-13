@@ -28,4 +28,4 @@
 - [x] Criar busca de entregas sem deliveryman (Buscar as entregas disponíveis: end_at === null );
 - [x] Criar update de entregas;
 - [x] Criar busca de entregas do client;
-- [ ] Criar busca de entregas do deliveryman; 
+- [x] Criar busca de entregas do deliveryman; 
