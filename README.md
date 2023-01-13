@@ -3,9 +3,9 @@
 </div>
 
 ## Criar estrutura do projeto
-- Prisma;
-- Typescript;
-- Bcrypt;
-- JsonWebToken;
-- Express;
-- ts-node-dev;
+- [x] Prisma;
+- [x] Typescript;
+- [x] Bcrypt;
+- [x] JsonWebToken;
+- [x] Express;
+- [x] ts-node-dev;
