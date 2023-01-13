@@ -1,3 +1,4 @@
+import { UpdateEndDateController } from './modules/deliveries/useCases/updateEndDate/UpdateEndDateController';
 import { FindAllDeliveriesController } from './modules/clients/useCases/deliveries/FindAllDeliveriesController';
 import { UpdateDeliverymanController } from './modules/deliveries/useCases/updateDeliveryman/UpdateDeliverymanController';
 import { FindAllAvailableController } from './modules/deliveries/useCases/findAllAvailable/FindAllAvailableController';
@@ -29,6 +30,8 @@ const findAllDeliveriesClient = new FindAllDeliveriesController();
 
 const findAllDeliveriesDeliveryman = new FindAllDeliveriesDeliverymanController();
 
+const updateEndDateController = new UpdateEndDateController();
+
 //Clients
 routes.post("/client/authenticate/", authenticateClientController.handle)
 routes.post("/client/", createClientController.handle);
@@ -59,6 +62,11 @@ routes.put(
   ensureAuthenticateDeliveryman,
   updateDeliverymanController.handle
 );
+
+routes.put("/delivery/updateEndDate/:id",
+  ensureAuthenticateDeliveryman,
+  updateEndDateController.handle
+)
 
 
 export { routes };

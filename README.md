@@ -29,3 +29,4 @@
 - [x] Criar update de entregas;
 - [x] Criar busca de entregas do client;
 - [x] Criar busca de entregas do deliveryman; 
+- [x] Criar o update de entrega (Deliveryman entregou a mercadoria);
