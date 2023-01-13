@@ -25,7 +25,7 @@
 - [x] Criar cadastro deliveryman;
 - [x] Criar autenticação deliveryman;
 - [x] Criar cadastro de entregas;
-- [ ] Criar busca de entregas sem deliveryman;
-- [ ] Criar update de entregas;
+- [x] Criar busca de entregas sem deliveryman (Buscar as entregas disponíveis: end_at === null );
+- [x] Criar update de entregas;
 - [ ] Criar busca de entregas do client;
 - [ ] Criar busca de entregas do deliveryman; 
