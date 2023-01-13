@@ -14,3 +14,6 @@
 - [x] Criar tabela de Clients (Clientes);
 - [x] Criar tabela de DeliveryMan (Entregadores);
 - [x] Criar tabela de Deliveries (Entregas);
+
+## Servidor
+- Configurar express (server);
